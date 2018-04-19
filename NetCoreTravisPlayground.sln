@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreTravisPlayground", "NetCoreTravisPlayground\NetCoreTravisPlayground.csproj", "{D8912A53-F978-43FD-BA77-5D15FA14B084}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreTravisPlayground.Tests", "NetCoreTravisPlayground.Tests\NetCoreTravisPlayground.Tests.csproj", "{5D6DB702-6D0C-4504-BA61-5CE851B08978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D8912A53-F978-43FD-BA77-5D15FA14B084}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8912A53-F978-43FD-BA77-5D15FA14B084}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8912A53-F978-43FD-BA77-5D15FA14B084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6DB702-6D0C-4504-BA61-5CE851B08978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6DB702-6D0C-4504-BA61-5CE851B08978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6DB702-6D0C-4504-BA61-5CE851B08978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6DB702-6D0C-4504-BA61-5CE851B08978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

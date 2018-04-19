@@ -2,11 +2,16 @@
 
 namespace NetCoreTravisPlayground
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World!");
+        }
+
+        public static string DataToText(string name, int age)
+        {
+            return $"{name} is {age} years old.";
         }
     }
 }
